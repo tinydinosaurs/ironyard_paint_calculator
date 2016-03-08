@@ -1,7 +1,7 @@
-length = prompt("How long is the room?")
-width = prompt("How wide is the room?")
+var length = prompt("How long is the room?")
+var width = prompt("How wide is the room?")
 
-gallons = Math.ceil(length * width / 350)
+var gallons = Math.ceil(length * width / 350)
 
 if(isNaN(length)) {
 	document.write("That's not a number, jerk. Stop trying to break my program.")
