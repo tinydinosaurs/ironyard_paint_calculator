@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic);
+
+body {
+	font-family: 'Libre Baskerville', serif;
+	margin: 1.5em 1.5em;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Libre Baskerville', serif;
+}
+
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.flex-item {
+	width: 5em;
+	height: 5em;
+	background-color: azure;
+	border: 6px solid white;
+}
+
+.write {
+	box-sizing: border-box;
+	width: 100%;
+	height: 5em;
+	padding: 0.5em;
+	background-color: MistyRose;
+	border: 6px solid white;	
+}
+
+.box1 {background-color: LightBlue;}
+.box2 {background-color: LightGreen;}
+.box3 {background-color: Orchid;}
+.box4 {background-color: IndianRed;}
+.box5 {background-color: LemonChiffon;}
+.box6 {background-color: Coral;}
+.box7 {background-color: Gold;}
+.box8 {background-color: MediumSeaGreen;}
+.box9 {background-color: CornflowerBlue;}
+.box10 {background-color: PaleVioletRed;}
+.box11 {background-color: MediumOrchid;}
+.box12 {background-color: NavajoWhite;}
+.box13 {background-color: LightSlateGrey;}
